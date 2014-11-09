@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1016963806</fileChecksum>
+  <configuration>
+    <name>WirelessMeter_430f2272_485</name>
+    <outputs>
+      <file>$PROJ_DIR$\src\app\init.c</file>
+      <file>$PROJ_DIR$\src\driver\cc1120_rx_sniff_mode_rx.c</file>
+      <file>$PROJ_DIR$\src\driver\cc112x_spi.c</file>
+      <file>$PROJ_DIR$\src\app\main.c</file>
+      <file>$PROJ_DIR$\src\driver\crc16.c</file>
+      <file>$PROJ_DIR$\src\driver\delay.c</file>
+      <file>$PROJ_DIR$\src\driver\hal_spi_rf_trxeb.c</file>
+      <file>$PROJ_DIR$\src\driver\rs485.c</file>
+      <file>$PROJ_DIR$\src\driver\uart.c</file>
+      <file>$PROJ_DIR$\src\app\app_led.c</file>
+      <file>$PROJ_DIR$\src\app\app_count.c</file>
+      <file>$PROJ_DIR$\src\os\app_scheduler.c</file>
+      <file>$PROJ_DIR$\src\driver\rs485.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\WirelessAmmeter.pbd</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Exe\WirelessAmmeter.ulp</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\src\os\os_error.h</file>
+      <file>$PROJ_DIR$\src\driver\md5c.c</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\delay.r43</file>
+      <file>$PROJ_DIR$\src\app\hw_types.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\fbt06.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\cc1120_rx_sniff_mode_rx.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Exe\WirelessAmmeter.d43</file>
+      <file>$TOOLKIT_DIR$\config\lnk430F2272.xcl</file>
+      <file>$PROJ_DIR$\src\app\init.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\cc112x_spi.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430f2272.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\main_ammeter.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\init.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\msp430flash.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\string.h</file>
+      <file>$PROJ_DIR$\src\os\app_scheduler.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\yvals.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\app_count.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\app_led.r43</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x22x2.h</file>
+      <file>$PROJ_DIR$\src\driver\encryption.h</file>
+      <file>$PROJ_DIR$\src\driver\motor.c</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\main.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\app_scheduler.pbi</file>
+      <file>$PROJ_DIR$\src\app\app_led.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdlib.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\encryption.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\src\driver\uart.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\fbt06.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\init.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\cc1120_rx_sniff_mode_rx.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\delay.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\app_count.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\app_led.pbi</file>
+      <file>$PROJ_DIR$\src\driver\fbt06.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430x41x2.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\msp430flash.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\cc112x_spi.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\hal_spi_rf_trxeb.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\motor.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\md5c.r43</file>
+      <file>$PROJ_DIR$\src\app\app_count.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\updateLCD.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\uart.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\src\os\os_util.h</file>
+      <file>$PROJ_DIR$\src\driver\md5.h</file>
+      <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\src\driver\global.h</file>
+      <file>$PROJ_DIR$\src\app\main.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\hal_spi_rf_trxeb.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\rs485.r43</file>
+      <file>$PROJ_DIR$\src\driver\cc1120_rx_sniff_mode_reg_config.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\rs485.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\crc16.r43</file>
+      <file>$PROJ_DIR$\src\driver\cc112x_spi.h</file>
+      <file>$PROJ_DIR$\src\driver\hal_defs.h</file>
+      <file>$PROJ_DIR$\src\driver\encryption.c</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\main_ammeter.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\encryption.pbi</file>
+      <file>$PROJ_DIR$\src\driver\msp430flash.c</file>
+      <file>$PROJ_DIR$\src\driver\motor.h</file>
+      <file>$PROJ_DIR$\src\driver\updateLCD.c</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\ystdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\src\app\main_ammeter.c</file>
+      <file>$PROJ_DIR$\src\driver\fbt06.c</file>
+      <file>$PROJ_DIR$\src\driver\delay.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\updateLCD.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\motor.pbi</file>
+      <file>$PROJ_DIR$\src\driver\crc16.h</file>
+      <file>$PROJ_DIR$\src\driver\updateLCD.h</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdio.h</file>
+      <file>$PROJ_DIR$\src\driver\msp430flash.h</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\md5c.pbi</file>
+      <file>$PROJ_DIR$\WirelessMeter_430f2272_485\Obj\app_scheduler.r43</file>
+      <file>$PROJ_DIR$\src\driver\hal_spi_rf_trxeb.h</file>
+      <file>$PROJ_DIR$\src\driver\hal_types.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\src\app\init.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 24 36 71 60 19 104 70 27 105 81 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24 36 71 60 19 104 70 27 105 81 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\cc1120_rx_sniff_mode_rx.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 70 27 71 60 104 105 81 80 42 61 33 65 62 67 44 91 26 24 77 94 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 27 71 60 104 105 81 80 42 61 33 65 62 67 44 91 26 24 77 94 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\cc112x_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 105 80 104 70 27 71 60 81</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105 80 104 70 27 71 60 81</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\app\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 73 19 100 61 33 65 62 67 44 91 26 90 36 71 60 24 45 94 80 105 104 70 27 81 77 12 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 19 100 61 33 65 62 67 44 91 26 90 36 71 60 24 45 94 80 105 104 70 27 81 77 12 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 98 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\delay.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 94 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\hal_spi_rf_trxeb.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 70 27 71 60 105 81 104</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 27 71 60 105 81 104</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\rs485.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 76</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 12 74 105 45 19 24 98 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12 74 105 45 19 24 98 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 45 19 53 71 60 100 61 33 65 62 67 44 91 26 90 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45 19 53 71 60 100 61 33 65 62 67 44 91 26 90 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\app\app_led.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 41 105 24 74 100 61 33 65 62 67 44 91 26 90</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41 105 24 74 100 61 33 65 62 67 44 91 26 90</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\app\app_count.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 34</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 59 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 105</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\os\app_scheduler.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 64 61 33 65 62 67 44 91 16 74 105 42 26 31 68 36 71 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 64 61 33 65 62 67 44 91 16 74 105 42 26 31 68 36 71 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\md5c.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 72 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\WirelessMeter_430f2272_485\Exe\WirelessAmmeter.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 23 21 25 79 18 75 29 39 76 66 84</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\motor.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 88 19 36 71 60 94</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 19 36 71 60 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\encryption.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 37 19 72 69</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 19 72 69</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\msp430flash.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 101 19 36 71 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101 19 36 71 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\updateLCD.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 99 19 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99 19 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\app\main_ammeter.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 73 19 100 61 33 65 62 67 44 91 26 90 36 71 60 24 45 94 37 52 88 99 101 80 105 104 70 27 81 77 41 59 32 64 16 74</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 19 100 61 33 65 62 67 44 91 26 90 36 71 60 24 45 94 37 52 88 99 101 80 105 104 70 27 81 77 41 59 32 64 16 74</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\driver\fbt06.c</name>
+      <outputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICC430</name>
+          <file> 52 19 45 73 36 71 60 31 61 33 65 62 67 44 91 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52 19 45 73 36 71 60 31 61 33 65 62 67 44 91 26</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\driver\md5c.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\driver\motor.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\driver\encryption.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\driver\msp430flash.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\src\driver\fbt06.c</name>
+      <tool>ICC430</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

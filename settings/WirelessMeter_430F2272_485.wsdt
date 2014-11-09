@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>WirelessAmmeter/WirelessMeter_430f2272_485</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>155</Column0><Column1>13</Column1><Column2>27</Column2><Column3>0</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <TerminalIO/>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-5876-15704</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>WirelessAmmeter</ExpandedNode><ExpandedNode>WirelessAmmeter/app</ExpandedNode><ExpandedNode>WirelessAmmeter/driver</ExpandedNode><ExpandedNode>WirelessAmmeter/os</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26327-15730</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-14459-9366</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>101</YPos2><SelStart2>3214</SelStart2><SelEnd2>3230</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\driver\rs485.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>18</YPos2><SelStart2>837</SelStart2><SelEnd2>837</SelEnd2></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\app\init.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>73</YPos2><SelStart2>3121</SelStart2><SelEnd2>3121</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\driver\rs485.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>179</SelStart2><SelEnd2>179</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\driver\uart.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>6</YPos2><SelStart2>490</SelStart2><SelEnd2>490</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\src\driver\delay.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>31</YPos2><SelStart2>821</SelStart2><SelEnd2>821</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-01d7f390><key>iaridepm.enu1</key></Toolbar-01d7f390></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>480</Bottom><Right>215</Right><x>-2</x><y>-2</y><xscreen>367</xscreen><yscreen>214</yscreen><sizeHorzCX>286719</sizeHorzCX><sizeHorzCY>282322</sizeHorzCY><sizeVertCX>169531</sizeVertCX><sizeVertCY>635884</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>233</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>235</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>310026</sizeHorzCY><sizeVertCX>286719</sizeVertCX><sizeVertCY>282322</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
